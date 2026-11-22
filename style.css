@@ -140,3 +140,14 @@ footer { max-width: 820px; margin: 70px auto 0; padding-top: 20px; border-top: 1
 /* 한국어 줄바꿈: 낱말 가운데서 끊지 않기 */
 .card strong, .card small, .deck, .lead, footer, .editor-note { word-break: keep-all; }
 .series .badge { font-style: normal; }
+
+/* 연재 소개글 */
+.why { max-width: 790px; margin: 0 auto 30px; background: var(--card); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent); border-radius: 10px; padding: 26px 30px; }
+.why h2 { font-size: 18px; letter-spacing: -.4px; margin: 0 0 12px; }
+.why p { font-size: 15.5px; line-height: 1.95; margin: 0 0 12px; word-break: keep-all; }
+.why p:last-child { margin-bottom: 0; }
+@media (max-width: 650px) { .why { padding: 20px 20px; } .why p { font-size: 15px; } }
+.why .ai-note { margin-top: 18px; padding-top: 14px; border-top: 1px dashed var(--line);
+  font-size: 14px; color: var(--muted); line-height: 1.85; }
+.why .ai-note b { display: block; color: var(--ink); font-size: 14px; margin-bottom: 2px; }
