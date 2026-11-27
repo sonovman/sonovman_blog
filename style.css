@@ -151,3 +151,24 @@ footer { max-width: 820px; margin: 70px auto 0; padding-top: 20px; border-top: 1
 .why .ai-note { margin-top: 18px; padding-top: 14px; border-top: 1px dashed var(--line);
   font-size: 14px; color: var(--muted); line-height: 1.85; }
 .why .ai-note b { display: block; color: var(--ink); font-size: 14px; margin-bottom: 2px; }
+
+/* v2: 본문 소제목·표, 읽기 전 상자 */
+.body h3 { font-size: 20px; letter-spacing: -.5px; margin: 40px 0 14px; line-height: 1.5; }
+.body h3:first-child { margin-top: 0; }
+.tbl { overflow-x: auto; margin: 6px 0 26px; }
+.tbl table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.7; }
+.tbl th, .tbl td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; word-break: keep-all; }
+.tbl thead th { border-bottom: 2px solid var(--accent); font-size: 13px; color: var(--accent); }
+.tbl tbody th { white-space: nowrap; }
+.primer { background: #f6f9f6; border: 1px solid var(--btn-line); border-radius: 10px; padding: 20px 22px; margin: 0 0 32px; font-size: 14.5px; line-height: 1.8; }
+.primer-q { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dashed var(--btn-line); word-break: keep-all; }
+.primer-q b, .primer-h { display: block; font-size: 12px; letter-spacing: .5px; color: var(--accent); margin-bottom: 2px; }
+.primer dl { margin: 6px 0 0; }
+.primer dt { font-weight: 700; margin-top: 10px; }
+.primer dd { margin: 2px 0 0; color: var(--muted); word-break: keep-all; }
+@media (max-width: 650px) {
+  .primer { padding: 16px 16px; font-size: 14px; }
+  .tbl table { font-size: 13px; }
+  .tbl tbody th { white-space: normal; }
+}
+@media print { .primer { break-inside: avoid; } }

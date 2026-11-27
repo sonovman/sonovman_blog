@@ -6,8 +6,8 @@ window.SERIES = [
     id: "understanding-maga",
     title: "우파와 청년의 불만을 건강한 정치로 연결하기",
     summary: "서로 다른 목소리를 듣고, 고통의 원인을 검증하며, 공동체와 자유를 함께 지키기 위한 여덟 편의 칼럼.",
-    count: "8편",
-    date: "2026-11-22",
+    count: "8편 + 먼저 읽기",
+    date: "2026-11-28",
     status: "연재 중",
     href: "understanding-maga/"
   },

@@ -8,12 +8,13 @@
 
 | 연재 | 편수 | 읽기 |
 |---|---|---|
-| 우파와 청년의 불만을 건강한 정치로 연결하기 | 8편 | [목차](https://sonovman.github.io/sonovman_blog/understanding-maga/) |
+| 우파와 청년의 불만을 건강한 정치로 연결하기 | 8편 + 먼저 읽기 | [목차](https://sonovman.github.io/sonovman_blog/understanding-maga/) |
 
 ### 우파와 청년의 불만을 건강한 정치로 연결하기
 
 | 편 | 제목 | 읽기 |
 |---|---|---|
+| 00 | 먼저 읽기: 우파와 청년은 무엇에 불만인가 | [읽기](https://sonovman.github.io/sonovman_blog/understanding-maga/00/) |
 | 01 | 세계의 우파와 청년을 하나의 얼굴로 읽지 않기 | [읽기](https://sonovman.github.io/sonovman_blog/understanding-maga/01/) |
 | 02 | 공장이 떠난 뒤 정치가 바뀌는 이유 | [읽기](https://sonovman.github.io/sonovman_blog/understanding-maga/02/) |
 | 03 | 공동체를 되찾겠다는 약속의 조건 | [읽기](https://sonovman.github.io/sonovman_blog/understanding-maga/03/) |
@@ -32,7 +33,8 @@ sonovman_blog/
 ├── style.css             모든 페이지 공통 디자인
 ├── .nojekyll             GitHub Pages가 파일을 그대로 보여 주게 하는 빈 파일
 └── understanding-maga/   「우파와 청년」 연재
-    ├── index.html        연재 목차 (1부·2부·3부)
+    ├── index.html        연재 목차 (먼저 읽기·1부·2부·3부)
+    ├── 00/index.html     먼저 읽기 (배경·용어·생각의 지도)
     ├── 01/index.html     1편
     └── … 08/index.html   8편
 ```
